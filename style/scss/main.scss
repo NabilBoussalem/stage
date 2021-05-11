@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+@import "custom/var.scss";
+@import "custom/mixin.scss";
+
+body
+{
+  font-family: Montserrat;
+}
+header.header {
+  
+  background: rgb(235, 202, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 202, 224, 1) 0%,
+    rgba(235, 235, 236, 1) 19%,
+    rgba(237, 229, 219, 1) 50%
+  );
+}
+
+
+/********************* Start navbar *********************/
+@import "navbar";
+/********************* End navbar *********************/
+@import "blocks/slider.scss";
+
+@import "blocks/block-1.scss";
+
+@import "blocks/block-2.scss";
+
+@import "blocks/block-3.scss";
+
+@import "blocks/block-4.scss";
+
+@import "blocks/block-5.scss";
+
+@import "blocks/block-6.scss";
+
+@import "blocks/block-7.scss";
+
+@import "blocks/block-8.scss";
+
+@import "blocks/block-9.scss";
+
+@import "blocks/block-10.scss";
+
+@import "blocks/block-11.scss";
+
+@import "blocks/footer.scss";
+
+@import "blocks/modale.scss";

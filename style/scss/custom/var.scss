@@ -1,0 +1,35 @@
+$primary: #dd6b7f;
+$primary-opcity: rgb(259,236,238);
+$success:rgb(63,207,99);
+$success-opacity:rgb(234,250,238);
+$secondary: #ffffff;
+$gris: #606060;
+$font-size-super-big:45px;
+$font-size-more-biger:35px;
+$font-size-biger:30px;
+$font-size-more-big:25px;
+$font-size-big:20px;
+$font-size-medium:15px;
+$font-size: 13px;
+$font-size-small: 11px;
+
+
+
+$blue:#3257A8;
+
+
+.container
+{
+    margin: 0 10%;
+}
+
+.hover-effect:hover
+{
+    transition: .2s background-color,
+                .2s box-shadow,
+                .2s border-radius; 
+    background: #FFFFFF ;
+    box-shadow: -5px 10px 20px #00000012;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}

@@ -1,0 +1,134 @@
+.block-5 article
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+
+    .div-2
+    { 
+        margin-top: 50px;
+        margin-left: 2%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10%;
+        text-align: center;
+        div
+        {
+            text-align: center;
+            padding: 3%;
+            margin: 10%;
+            
+            h2
+            {
+                font-size: $font-size-small +1px;
+            }
+            p
+            {
+                font-size: $font-size-small +1px;
+                color: $gris;
+            }
+        }
+        .validation
+        {
+            margin-left: 0;
+        }
+
+        .img
+        {
+            img
+            {
+                width: 300%;
+            }
+        }
+    }
+
+
+
+    @media (max-width: 575.98px)
+    {
+        display: block;
+        .div-1
+        {
+            img
+            {
+                width: 100%;
+            }
+        }
+        
+        .div-2
+        {
+            
+            .img
+            {
+                width: 60%;
+            }
+            
+            h2
+            {
+                font-size: $font-size-small;
+            }
+            p
+            {
+                font-size: $font-size-small ;
+                color: $gris;
+            }
+        }
+    }
+    
+    @media (min-width: 575.98px) and (max-width: 767.98px)
+    {
+        display: block;
+        .div-1
+        {
+            text-align: center;
+        }
+        
+        .div-2
+        {
+            .img
+            {
+                width: 60%;
+            }
+            
+            h2
+            {
+                font-size: $font-size-small;
+            }
+            p
+            {
+                font-size: $font-size-small ;
+                color: $gris;
+            }
+        }
+        
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px)
+    {
+        display: block;
+        .div-1
+        {
+            text-align: center;
+        }
+        
+        .div-2
+        {
+            .img
+            {
+                width: 60%;
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px)
+    { 
+        .div-1
+        {
+            img
+            {
+                width: 100%;
+            }
+        }
+    }
+}

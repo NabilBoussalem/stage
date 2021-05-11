@@ -1,0 +1,288 @@
+.block-4 article
+{
+    display: grid;
+    grid-template-columns:  50% 50%;
+    align-items: center;
+    .div-1
+    {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        align-items: flex-end;
+        .description
+        {
+            margin-left: 20px;
+            header
+            {
+                font-size: $font-size-biger;
+                font-weight: bold;
+                span:first-of-type
+                {
+                    display: block;
+                }
+                span:last-of-type
+                {
+                    color: $primary;
+                }
+            }
+
+            p
+            {
+                line-height: 22px;
+                width: 400px;
+                font-size: $font-size-medium;
+                color: $gris;
+            }
+        }
+    }
+
+    .div-2
+    {
+        
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10%;
+        text-align: center;
+        div
+        {
+            text-align: center;
+            margin: 10%;
+            padding: 3%;
+            h2
+            {
+                font-size: $font-size-small +1px;
+            }
+            p
+            {
+                font-size: $font-size-small +1px;
+                color: $gris;
+            }
+        }
+
+        .order
+        {
+            margin-left: 0;
+        }
+    }
+
+
+    @media (max-width: 575.98px)
+    {
+        grid-template-columns: 100%;
+        margin-top: 30px;
+        .div-1
+        {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            align-items: flex-end;
+            .description p
+            {
+                width: 100%;
+                font-size: $font-size;
+            }
+            .description header
+            {
+                font-size: $font-size-big;
+            }
+            .rectangle
+            {
+                display: none;
+                svg
+                {
+                    height: 0%;
+                    width: auto;
+                }
+            }
+        }
+        .div-2
+        {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            column-gap: 5%;
+            text-align: center;
+            margin-top: 5%;
+            div
+            {
+                text-align: center;
+                margin: 0%;
+                padding: 7%;
+                h2
+                {
+                    font-size: $font-size-small;
+                }
+                p
+                {
+                    font-size: $font-size-small ;
+                    color: $gris;
+                }
+            }
+
+            .order
+            {
+                margin-left: 0;
+            }
+        }
+    }
+    
+    @media (min-width: 575.98px) and (max-width: 767.98px)
+    {
+        grid-template-columns: 100%;
+        margin-top: 30px;
+        .div-1
+        {
+            display: grid;
+            width: 100%;
+            margin: 0 auto;
+            grid-template-columns: 10% 90%;
+            align-items: flex-end;
+            .description p
+            {
+                width: 100%;
+            }
+            .rectangle
+            {
+                svg
+                {
+                    height: 0%;
+                    width: auto;
+                }
+            }
+        }
+        .div-2
+        {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            column-gap: 10%;
+            text-align: center;
+            div
+            {
+                text-align: center;
+                margin: 10%;
+                padding: 7%;
+                h2
+                {
+                    font-size: $font-size-small;
+                }
+                p
+                {
+                    font-size: $font-size-small ;
+                    color: $gris;
+                }
+            }
+
+            .order
+            {
+                margin-left: 0;
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px)
+    {
+        grid-template-columns: 100%;
+        .div-1
+        {
+            display: grid;
+            width: 70%;
+            margin: 0 auto;
+            grid-template-columns: 10% 90%;
+            align-items: flex-end;
+            .description p
+            {
+                width: 100%;
+            }
+            .rectangle
+            {
+                svg
+                {
+                    height: 0%;
+                    width: auto;
+                }
+            }
+        }
+        .div-2
+        {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            column-gap: 10%;
+            text-align: center;
+            div
+            {
+                text-align: center;
+                margin: 10%;
+                padding: 8%;
+                h2
+                {
+                    font-size: $font-size-small +1px;
+                }
+                p
+                {
+                    font-size: $font-size-small +1px;
+                    color: $gris;
+                }
+            }
+
+            .order
+            {
+                margin-left: 0;
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px)
+    { 
+        .div-1
+        {
+            display: grid;
+            grid-template-columns: 10% 90%;
+            align-items: flex-end;
+            .description
+            {
+                margin-left: 20px;
+                header
+                {
+                    font-size: $font-size-biger - 3;
+                    font-weight: bold;
+                }
+
+                p
+                {
+                    line-height: 22px;
+                    width: 352px;
+                    font-size: $font-size-medium;
+                    color: $gris;
+                }
+            }
+        }  
+
+        .div-2
+        {
+            display: flex;
+            
+            display: grid;
+            grid-template-columns: 50% 50%;
+            column-gap: 10%;
+            text-align: center;
+            div
+            {
+                text-align: center;
+                margin: 10%;
+                padding: 3%;
+                h2
+                {
+                    font-size: $font-size-small +1px;
+                }
+                p
+                {
+                    font-size: $font-size-small +1px;
+                    color: $gris;
+                }
+            }
+
+            .order
+            {
+                margin-left: 0;
+            }
+        }
+    }
+}

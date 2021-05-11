@@ -1,0 +1,361 @@
+.header .slider-element .slider-containt{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    &.element-2 , &.element-3
+    {
+      .description
+      {
+        margin-left: 15px;
+      }
+    }
+    .slider-pic
+    {
+      img
+      {
+        width: 99%;
+        height: auto;
+      }
+    }
+
+    .btn-add {
+      font-size: $font-size;
+      button {
+        @include balckButton();
+        margin-right: 20px;
+        img {
+          margin-right: 3px;
+        }
+        img {
+          vertical-align: middle;
+        }
+      }
+  
+      @include viewDetails();
+    }
+    
+    .ipad
+    {
+      >span
+      {
+        color: $primary;
+      }
+      h2
+      {
+        font-size: $font-size-more-big !important;
+        &::first-line
+        {
+          font-size: $font-size-more-biger;
+        }
+      }
+    }
+    
+    .description {
+      margin-right: 10px;
+      h2 {
+        margin-bottom: 15px;
+        span
+        {
+          font-size: $font-size-more-biger;
+          display: block;
+          &:first-of-type
+          {
+            color: $gris;
+          }
+        }
+      }
+      p {
+        font-size: $font-size;
+        margin: 15px 0;
+        color: $gris;
+      }
+      
+    }
+    
+  }
+  
+  .header .slider-container
+  {
+    position: relative;
+    
+    .navigation
+    {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      bottom: 38px;
+      left: 0px;
+      width: 100%;
+  
+      button
+      {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        &:first-of-type { color: $gris; }
+        &:last-of-type { color: $primary; }
+  
+        img{
+          vertical-align: middle;
+          &:first-of-type { margin-right: 10px; }
+          &:last-of-type { margin-left: 10px; }
+        }
+      }
+    }
+    
+  .conteur {
+    padding: 0;
+    font-size: $font-size-biger !important;
+    color: initial !important;
+    }
+    .conteur-container
+    {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      li{
+        list-style: none;
+        font-size: $font-size-small;
+        color: $gris;
+        padding-right: 3px;
+      }
+    }
+  }
+  
+  .header .slider
+  {
+    width: 100%;
+    overflow: hidden;
+    ul
+    {
+      
+      list-style: none;
+      width: 300%;
+      li
+      {
+        &:first-of-type
+        {
+          transition: 2s margin-left;
+        }
+        display: inline-flex;
+        justify-content: space-between;
+        width: 33%;
+      }
+    }
+    
+  }
+
+
+
+
+  @media (max-width: 575.98px)
+  {
+    .slider-container
+    {
+      margin-top: 0px;
+
+      .navigation, .conteur-container
+      {
+        display: none !important;
+      }
+      
+    }
+    #element-3
+    {
+      h2
+      {
+        font-size: $font-size !important;
+        &::first-line
+        {
+          font-size: $font-size;
+        }
+      }
+      .btn-add {
+        font-size: $font-size;
+        button {
+          @include balckButton();
+          margin-right: 0px;
+          font-size: $font-size-small;
+          img {
+            margin-right: 3px;
+          }
+          img {
+            vertical-align: middle;
+          }
+        }
+    
+        @include viewDetails();
+
+        p:last-of-type
+        {
+          font-size: $font-size-small;
+          margin-top: 0;
+        }
+      }
+    }
+    .header .slider
+    {
+      overflow: initial;
+      ul
+      {
+        width: 100%;
+        li
+        {
+          width: 100%;
+        }
+      }
+      
+    }
+    .header .element-2 , .header .element-1 
+    {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 575.98px) and (max-width: 767.98px)
+  {
+    .slider-container
+    {
+      margin-top: 0px;
+
+      .navigation
+      {
+        bottom: 15px !important;
+      }
+    }
+
+    .header .slider-element .slider-containt
+    {
+      
+      .description 
+      {
+        h2 {
+          margin-bottom: 10px;
+          font-size: $font-size !important;
+          span
+          {
+            font-size: $font-size-medium;
+          }
+        }
+        p {
+          font-size: $font-size-small - 2;
+          margin: 8px 0;
+        }
+        
+      }
+      .slider-pic:first-of-type
+      {
+        img
+        {
+          width: 40%;
+          height: auto;
+        }
+      }
+
+      
+      .btn-add {
+        button {
+          @include balckButton();
+          margin-right: 0px;
+          width: 100px;
+          height: 30px;
+        font-size: $font-size-small;
+          img {
+            margin-right: 3px;
+            vertical-align: middle;
+          }
+
+        }
+    
+        @include viewDetails();
+      }
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px)
+  {
+    .slider-container
+    {
+      margin-top: -30px;
+
+      .navigation
+      {
+        bottom: 15px !important;
+      }
+    }
+    .header .slider-element .slider-containt
+    {
+      
+      .description 
+      {
+        h2 {
+          margin-bottom: 10px;
+          font-size: $font-size-more-big;
+          span
+          {
+            font-size: $font-size-big;
+          }
+        }
+        p {
+          font-size: $font-size-small;
+          margin: 8px 0;
+          
+        }
+        
+      }
+
+      .slider-pic:first-of-type
+      {
+        img
+        {
+          width: 40%;
+          height: auto;
+        }
+      }
+
+      
+      .btn-add {
+        button {
+          @include balckButton();
+          margin-right: 0px;
+          width: 100px;
+          height: 30px;
+        font-size: $font-size-small;
+          img {
+            margin-right: 3px;
+            vertical-align: middle;
+          }
+
+        }
+    
+        @include viewDetails();
+      }
+      
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px)
+  {
+    .header .slider-element .slider-containt
+    {
+      
+      .description {
+        h2 {
+          margin-bottom: 15px;
+          span
+          {
+            font-size: $font-size-more-biger - 8;
+          }
+        }
+        p {
+          font-size: $font-size;
+          margin: 15px 0;
+    
+        }
+        
+      }
+      
+    }
+
+
+  }

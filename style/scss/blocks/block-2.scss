@@ -1,0 +1,140 @@
+.block-2
+{
+    margin-top: 80px;
+    text-align: center;  
+    div
+    {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        svg
+        {
+            width: calc((100% / 7)-20px);
+            padding: 20px;
+            &:nth-of-type(1):hover, &:nth-of-type(3):hover, &:nth-of-type(5):hover, &:nth-of-type(7):hover
+            {
+                path { fill: black; }
+            }
+            &:nth-of-type(2):hover
+            {
+                #Tracé_108, #Groupe_80 path, #Groupe_81 path{ fill: rgb(172, 1, 18); }
+                #Groupe_82 { path{ fill: black;}}
+            } 
+            &:nth-of-type(4):hover
+            {
+                path
+                {
+                    fill: #579ADD;
+                }
+            }
+            &:nth-of-type(6):hover
+            {
+                path{ fill: rgb(0, 150, 214);}
+            }
+            
+        }
+    }
+
+    h2
+    {
+        font-size: $font-size-biger;
+        margin-bottom: 10px;
+    }
+
+    p
+    {
+        font-size: $font-size-medium;
+        color:$gris;
+    }
+
+
+
+    @media (max-width: 575.98px)
+    {
+        margin-top: 20px;
+        div
+        {
+            margin-bottom: 20px;
+            svg
+            {
+                width: 30%;
+                justify-content: space-between !important;
+            }
+        }
+        h2
+        {
+            font-size: $font-size-medium;
+        }
+    
+        p
+        {
+            font-size: $font-size-small ;
+        }
+
+    }
+    @media (min-width: 575.98px) and (max-width: 767.98px)
+    {
+        margin-top: 40px;
+        div
+        {
+            margin-bottom: 20px;
+            svg
+            {
+                width: 23%;
+                justify-content: space-between !important;
+            }
+        }
+        h2
+        {
+            font-size: $font-size-big;
+        }
+    
+        p
+        {
+            font-size: $font-size;
+        }
+    }
+    
+    
+    @media (min-width: 768px) and (max-width: 991.98px)
+    {
+        margin-top: 60px;
+        div
+        {
+            margin-bottom: 20px;
+            svg
+            {
+                width: calc((100% / 4)-20px);
+            }
+        }
+        h2
+        {
+            font-size: $font-size-big;
+        }
+    
+        p
+        {
+            font-size: $font-size;
+        }
+    
+        
+        
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px)
+    { 
+        div
+        {
+            margin-bottom: 20px;
+            svg
+            {
+                width: 18%;
+            }
+        }
+    }
+    
+    
+
+}
+
+

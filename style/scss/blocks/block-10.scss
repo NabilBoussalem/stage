@@ -1,0 +1,338 @@
+.block-10
+{
+    header
+    {
+        margin-top: 40px;
+        position: relative;
+        
+        div
+        {
+            @include header(60%);
+            margin-bottom: 10px;
+        }
+        >p
+        {
+            @include header(58%);
+            text-align: center;
+            font-size: $font-size;
+            color: $gris;
+        }
+    }
+
+    main
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: flex-end;
+        margin-top: -12%;
+        div
+        {
+            &:first-of-type
+            {
+                
+                img
+                {
+                    
+                }
+            }
+            &:first-of-type
+            {
+                width: 78%;
+            }
+        }
+        form
+        {
+            position: relative;
+            svg
+            {
+                position: absolute;
+                right: 0;
+                top: -120px;
+            }
+            input,textarea
+            {
+                display: block;
+                width: 100%;
+                border: none;
+                outline: none;
+                padding: 15px 20px;
+                border-radius: 24px;
+                color: $secondary;
+                background-color: $primary-opcity;
+                font-style: italic;
+                font-size: $font-size-medium;
+                margin: 5px 0;
+                resize: none;
+                &::placeholder
+                {
+                    color: $primary;
+                    font-weight: bold;
+                }
+                &:focus
+                {
+                    background-color: $primary;
+                }
+            }
+
+            textarea
+            {
+                height: 100px !important;
+            }
+
+            button
+            {
+                @include balckButton();
+                margin-top: 15px;
+            }
+        }
+    }
+
+
+    @media (max-width: 575.98px)
+    {
+        header
+        {
+            div
+            {
+                @include header(100%);
+                margin-bottom: 5px !important;
+                font-size: 50px ;
+            }
+    
+            >p
+            {
+                @include header(100%);
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+                font-size: $font-size-small;
+            }
+        }
+        main
+        {
+            display: block;
+            div
+            {
+                &:first-of-type
+                {
+                    
+                    img
+                    {
+                        display: block;
+                        margin: 0 auto;
+                        width: 80%;
+                        margin-top: 50px;
+                    }
+                }
+                &:first-of-type
+                {
+                    
+                }
+            }
+            form
+            {
+                position: relative;
+                svg
+                {
+                    position: absolute;
+                    right: 0;
+                    top: -100px;
+                    width: 80px;
+                    height: 80px;
+                }
+                input,textarea
+                {
+                    width: 100%;
+                    padding: 10px 10px !important;
+                    border-radius: 24px;
+                    font-size: $font-size;
+                    
+                }
+
+                button
+                {
+                    display: block;
+                    margin: 0 auto;
+                    @include balckButton();
+                    width: 50% !important;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    
+    @media (min-width: 575.98px) and (max-width: 767.98px)
+    {
+        header
+        {
+            div
+            {
+                @include header(100%);
+                margin-bottom: 5px !important;
+            }
+    
+            >p
+            {
+                @include header(95%);
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+            }
+        }
+
+        main
+        {
+            display: block;
+            div
+            {
+                &:first-of-type
+                {
+                    
+                    img
+                    {
+                        display: block;
+                        margin: 0 auto;
+                        width: 80%;
+                        margin-top: 50px;
+                    }
+                }
+                &:first-of-type
+                {
+                    
+                }
+            }
+            form
+            {
+                position: relative;
+                svg
+                {
+                    position: absolute;
+                    right: 0;
+                    top: -120px;
+                }
+                input,textarea
+                {
+                    width: 100%;
+                    padding: 15px 20px;
+                    border-radius: 24px;
+                    font-size: $font-size-medium;
+                }
+
+                button
+                {
+                    display: block;
+                    margin: 0 auto;
+                    @include balckButton();
+                    width: 50% !important;
+                    margin-top: 15px;
+                }
+            }
+        }
+        
+    }
+    
+    
+    @media (min-width: 768px) and (max-width: 991.98px)
+    {
+        header
+        {
+            
+            div
+            {
+                @include header(80%);
+                margin-bottom: 15px !important;
+            }
+    
+            >p
+            {
+                @include header(75%);
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+            }
+        }
+        main
+        {
+            div
+            {
+                &:first-of-type
+                {
+                    margin-left: -30px;   
+                    img
+                    {
+                        width: 130%;
+                    }
+                }
+                &:first-of-type
+                {
+                    
+                }
+            }
+            form
+            {
+                input,textarea
+                {
+                    padding: 15px 0 15px 20px;
+                }
+
+                button
+                {
+                    margin-top: 10px;
+                }
+            }
+        }
+        
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px)
+    { 
+        header  >p
+        {
+            @include header(65%);
+            text-align: center;
+        }
+        main
+        {
+            column-gap: 40px;
+            margin-top: -15%;
+            div
+            {
+                &:first-of-type
+                {
+                    
+                    img
+                    {
+                        
+                    }
+                }
+                &:first-of-type
+                {
+                    
+                }
+            }
+            form
+            {
+                position: relative;
+                svg
+                {
+                    position: absolute;
+                    right: 0;
+                    top: -120px;
+                }
+                input,textarea
+                {
+                    width: 100%;
+                    padding: 15px 20px;
+                    border-radius: 24px;
+                    font-size: $font-size-medium;
+                }
+
+                button
+                {
+                    @include balckButton();
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

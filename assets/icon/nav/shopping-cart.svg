@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.915" height="25" viewBox="0 0 25.915 25">
+  <g id="shopping-cart" transform="translate(0 -2.25)">
+    <path id="Tracé_1" data-name="Tracé 1" d="M12.571,31.036a1.786,1.786,0,1,1-1.786-1.786A1.786,1.786,0,0,1,12.571,31.036Z" transform="translate(-1.857 -5.572)" fill="rgba(0,0,0,0.9)"/>
+    <path id="Tracé_2" data-name="Tracé 2" d="M28.321,31.036a1.786,1.786,0,1,1-1.786-1.786A1.786,1.786,0,0,1,28.321,31.036Z" transform="translate(-5.107 -5.572)" fill="rgba(0,0,0,0.9)"/>
+    <path id="Tracé_3" data-name="Tracé 3" d="M25,6.714H5.2l-.733-3.75a.893.893,0,0,0-.893-.714H0V4.036H2.84L6.25,21.178a.893.893,0,0,0,.893.714H23.214V20.107H7.875l-.732-3.571H23.214a.893.893,0,0,0,.893-.7L25.893,7.8A.893.893,0,0,0,25,6.714ZM22.5,14.75H6.8L5.553,8.5h18.33Z" transform="translate(0 0)" fill="rgba(0,0,0,0.9)"/>
+  </g>
+</svg>

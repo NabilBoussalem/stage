@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105.052" height="88.529" viewBox="0 0 105.052 88.529">
+  <defs>
+    <linearGradient id="linear-gradient" x1="4.41" y1="-26.509" x2="2.018" y2="-25.674" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffff54"/>
+      <stop offset="0.012" stop-color="#faf552"/>
+      <stop offset="0.068" stop-color="#e8cd49"/>
+      <stop offset="0.128" stop-color="#d8aa41"/>
+      <stop offset="0.191" stop-color="#cc8e3b"/>
+      <stop offset="0.259" stop-color="#c27836"/>
+      <stop offset="0.333" stop-color="#bb6833"/>
+      <stop offset="0.418" stop-color="#b75f31"/>
+      <stop offset="0.54" stop-color="#b65d31"/>
+      <stop offset="0.751" stop-color="#b75e31"/>
+      <stop offset="0.828" stop-color="#bb6533"/>
+      <stop offset="0.882" stop-color="#c37136"/>
+      <stop offset="0.926" stop-color="#ce823a"/>
+      <stop offset="0.963" stop-color="#dc983f"/>
+      <stop offset="0.996" stop-color="#eeb245"/>
+      <stop offset="1" stop-color="#f1b747"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.269" y1="-9.263" x2="1.366" y2="-9.676" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffff54"/>
+      <stop offset="0.011" stop-color="#f7ed50"/>
+      <stop offset="0.037" stop-color="#e5c747"/>
+      <stop offset="0.066" stop-color="#d7a640"/>
+      <stop offset="0.096" stop-color="#ca8b3b"/>
+      <stop offset="0.13" stop-color="#c17636"/>
+      <stop offset="0.167" stop-color="#bb6833"/>
+      <stop offset="0.212" stop-color="#b75f31"/>
+      <stop offset="0.283" stop-color="#b65d31"/>
+      <stop offset="0.283" stop-color="#b65e31"/>
+      <stop offset="0.294" stop-color="#c87e38"/>
+      <stop offset="0.305" stop-color="#d7983f"/>
+      <stop offset="0.319" stop-color="#e3ae44"/>
+      <stop offset="0.335" stop-color="#ecbf48"/>
+      <stop offset="0.354" stop-color="#f3cb4a"/>
+      <stop offset="0.382" stop-color="#f6d24c"/>
+      <stop offset="0.458" stop-color="#f8d44d"/>
+      <stop offset="0.477" stop-color="#edc148"/>
+      <stop offset="0.519" stop-color="#d99d40"/>
+      <stop offset="0.561" stop-color="#ca8139"/>
+      <stop offset="0.603" stop-color="#be6d34"/>
+      <stop offset="0.645" stop-color="#b86131"/>
+      <stop offset="0.687" stop-color="#b65d31"/>
+      <stop offset="0.696" stop-color="#b86131"/>
+      <stop offset="0.721" stop-color="#bc6733"/>
+      <stop offset="0.766" stop-color="#c87a38"/>
+      <stop offset="0.824" stop-color="#d48b3c"/>
+      <stop offset="0.886" stop-color="#da953f"/>
+      <stop offset="0.962" stop-color="#dd9940"/>
+      <stop offset="0.976" stop-color="#e5ac44"/>
+      <stop offset="1" stop-color="#f8d44d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.415" y1="-7.056" x2="1.297" y2="-6.478" gradientUnits="objectBoundingBox">
+      <stop offset="0.006" stop-color="#ffffbf"/>
+      <stop offset="1" stop-color="#f2cc50"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.421" y1="-7.196" x2="1.302" y2="-6.617" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffff7c"/>
+      <stop offset="1" stop-color="#f1b747"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.052" y1="-0.518" x2="0.77" y2="1.113" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cabaf8"/>
+      <stop offset="0.138" stop-color="#c5b5f4"/>
+      <stop offset="0.281" stop-color="#b9a9eb"/>
+      <stop offset="0.426" stop-color="#a494dc"/>
+      <stop offset="0.43" stop-color="#a494dc"/>
+      <stop offset="0.612" stop-color="#a898df"/>
+      <stop offset="0.801" stop-color="#b4a4e8"/>
+      <stop offset="0.992" stop-color="#c9b9f7"/>
+      <stop offset="0.997" stop-color="#cabaf8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.052" y1="-0.518" x2="0.77" y2="1.113" xlink:href="#linear-gradient-5"/>
+  </defs>
+  <g id="right-icon" transform="translate(-365.641 -142.7)">
+    <g id="Groupe_337" data-name="Groupe 337" transform="translate(365.641 142.7)" style="isolation: isolate">
+      <g id="Groupe_335" data-name="Groupe 335" transform="translate(1.13 0.457)">
+        <path id="Tracé_1876" data-name="Tracé 1876" d="M390.188,147.989l.785.985-2-4.337a1.147,1.147,0,0,0-.145-.235l-.785-.985a1.118,1.118,0,0,1,.145.235Z" transform="translate(-374.888 -143.417)" fill="url(#linear-gradient)"/>
+        <path id="Tracé_1877" data-name="Tracé 1877" d="M389.027,154.373l-.784-.985a1.681,1.681,0,0,1-.409,2.2L383.4,159.9l-1.2,5.34a2.388,2.388,0,0,1-2.149,1.756,1.56,1.56,0,0,1-.554-.084l-4.742-1.671-5.645,1.914a2.032,2.032,0,0,1-.6.112,1.323,1.323,0,0,1-1.094-.464l.785.985a1.321,1.321,0,0,0,1.093.464,2.046,2.046,0,0,0,.6-.111l5.645-1.914,4.742,1.671a1.565,1.565,0,0,0,.554.084,2.388,2.388,0,0,0,2.15-1.756l1.2-5.339,4.432-4.311A1.679,1.679,0,0,0,389.027,154.373Z" transform="translate(-367.413 -147.03)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="Groupe_336" data-name="Groupe 336">
+        <path id="Tracé_1878" data-name="Tracé 1878" d="M378.835,142.7a1.258,1.258,0,0,1,1.236.692l2,4.337,4.906,1.386c1.075.3,1.186,1.649.214,2.6l-4.433,4.311-1.2,5.34a2.387,2.387,0,0,1-2.149,1.756,1.56,1.56,0,0,1-.554-.084l-4.742-1.671-5.645,1.914a2.033,2.033,0,0,1-.6.112,1.244,1.244,0,0,1-1.284-1.675l1.506-5.347-2.292-4.154c-.505-.913.293-2.281,1.538-2.638l5.67-1.634,4.23-4.483A2.338,2.338,0,0,1,378.835,142.7Z" transform="translate(-365.641 -142.7)" fill="url(#linear-gradient-3)"/>
+        <path id="Tracé_1879" data-name="Tracé 1879" d="M380.132,162.907a1.832,1.832,0,0,1-.617.129,1.36,1.36,0,0,1-.485-.074l-4.806-1.692-5.708,1.935a1.85,1.85,0,0,1-.546.1,1.052,1.052,0,0,1-1.094-1.43l1.528-5.423-2.33-4.223a1.233,1.233,0,0,1-.035-1.027,2.236,2.236,0,0,1,1.278-1.272c.059-.022.118-.043.179-.06l5.721-1.648,4.266-4.521a2.3,2.3,0,0,1,.837-.568,1.866,1.866,0,0,1,.629-.13,1.063,1.063,0,0,1,1.056.579L382.043,148l4.992,1.41a.96.96,0,0,1,.7.7,1.7,1.7,0,0,1-.571,1.572l-4.474,4.351-1.213,5.4A2.176,2.176,0,0,1,380.132,162.907Z" transform="translate(-365.751 -142.81)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+    <g id="Groupe_333" data-name="Groupe 333" transform="matrix(0.695, 0.719, -0.719, 0.695, 504.952, -220.723)">
+      <path id="Tracé_1874" data-name="Tracé 1874" d="M246.389,307.087a22.291,22.291,0,1,0,22.29,22.291A22.291,22.291,0,0,0,246.389,307.087Zm0,31.136a8.845,8.845,0,1,1,8.845-8.845A8.845,8.845,0,0,1,246.389,338.223Z" fill="url(#linear-gradient-5)"/>
+      <path id="Tracé_1875" data-name="Tracé 1875" d="M260.029,376.183a9.836,9.836,0,1,0,9.836,9.835A9.835,9.835,0,0,0,260.029,376.183Zm0,13.738a3.9,3.9,0,1,1,3.9-3.9A3.9,3.9,0,0,1,260.029,389.921Z" transform="translate(-6.705 -17.753)" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>
