@@ -17,7 +17,6 @@ let contenu = document.querySelector(".panier .contenu");
         contenu.classList.add('show');
         r=1;
     }
-    panier.onclick()
 
 /* end panier */  
 
